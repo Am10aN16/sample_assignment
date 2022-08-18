@@ -1,0 +1,49 @@
+header{
+    min-height: 70px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    background-color: rgba(158, 19, 19, 0.913);
+    
+}
+
+header .logo{
+    flex: 1;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+header .logo h1{
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    
+}
+
+header a{
+    text-transform: uppercase;
+    color: #ddd;
+    text-decoration: none;
+}
+header ul li{
+    display: inline-block;
+    opacity: 0.8;
+    padding: 0 20px;
+    font-weight: 500;
+}
+header ul li:hover{
+    opacity: 1;
+}
+.menu{
+    display: none;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color:#3DBA41;
+    color: #ddd;
+}

@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+}
+
+@media(max-width: 920px){
+  header ul{
+   position: fixed;
+   top: 0;
+   left: -100%;
+   width: 100%;
+   height: 100vh;
+   background: rgba(158, 19, 19, 0.913);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   opacity: 0.98;
+   z-index: 99;
+   transition: 0.5s ease-in;
+  }
+
+  header .menu{
+    display: block;
+    cursor: pointer;
+  }
+  header ul li .menu{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  header{
+    justify-content: space-between;
+  }
+
+  .logo h1{
+    justify-content: center;
+  }
+
+  .line-1{
+    font-size: 100% !important;
+  }
+}
